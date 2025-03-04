@@ -1,11 +1,27 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+.destination-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    margin: 16px;
 }
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
+.destination-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
 }
+
+.destination-card h2 {
+    margin: 8px 0;
+    font-size: 1.5rem;
+}
+
+.destination-card span {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.destination-card h4 {
+    color: #ff4500;
+}
+
